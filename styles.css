@@ -1,5 +1,5 @@
 body {
-  background-color: lightgreen;
+  background-color: #ddd;
   background: url("images/fondito.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,57 +31,42 @@ h3 {
   font-size: 40px;
 }
 
-
-.hojas1 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 200px;
-  left: 80px;
-}
-
-.hojas2 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 200px;
-  left: 900px;
-  transform: rotate(90deg);
+footer {
+  position: relative;
+  left: 20px;
 }
 
 .caras {
   position: absolute;
-  right: 120px;
-  top: 200px;
+  z-index: -1;
+  right: 15%;
 }
 
 .qr {
-  position: absolute;
+  position: relative;
   width: 150px;
   height: 150px;
-  left: 100px;
-  bottom: 20px;
 }
 
 .calendar {
-  height: 500px;
-  width: 1500px;
-  position: relative;
-  left: 70px;
-  top: 10px;
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
-  position: relative;
-  width: 150px;
+  width: 10%;
+  min-width: 150px;
   height: 150px;
+  min-height: 150px;
   text-align: center;
   line-height: 50px;
   background-color: transparent;
   border: 2px solid black;
   margin: 20px;
-  border-radius: 2%;
-  float: left;
+  border-radius: 5%;
+  position: relative;
 }
 
 .img {
@@ -114,5 +99,6 @@ h3 {
 }
 
 .follow {
-  position: none;
+  position: relative;
+  right: 100px;
 }

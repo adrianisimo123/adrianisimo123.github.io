@@ -115,7 +115,7 @@ msj.forEach((foto, index) => {
 //let actualDay = new Date().getDate();
 let actualDay = 9;
 let actualId = 22;
-let calendario = document.querySelector(".calendar");
+let calendario = document.querySelector("article");
 
 for (let i = 0; i < 21; i++) {
 
