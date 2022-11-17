@@ -1,0 +1,118 @@
+body {
+  background-color: lightgreen;
+  background: url("images/fondito.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+p {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: -25px;
+}
+
+
+h1 {
+  position: relative;
+  margin-left: 100px;
+  font-size: 80px;
+  margin-bottom: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+h3 {
+  position: absolute;
+  left: 280px;
+  bottom: 50px;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+
+.hojas1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 80px;
+}
+
+.hojas2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 900px;
+  transform: rotate(90deg);
+}
+
+.caras {
+  position: absolute;
+  right: 120px;
+  top: 200px;
+}
+
+.qr {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  bottom: 20px;
+}
+
+.calendar {
+  height: 500px;
+  width: 1500px;
+  position: relative;
+  left: 70px;
+  top: 10px;
+}
+
+.box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 50px;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 2%;
+  float: left;
+}
+
+.img {
+  width: 144px;
+  height: 144px;
+  border-radius: 15%;
+  position: relative;
+  top: 3px;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  padding: 0 5px;
+  top: 2px;
+}
+
+.redes {
+  position: absolute;
+  bottom: 20px;
+  left: 280px;
+}
+
+.socials {
+  width: 50px;
+  height: 50px;
+}
+
+.follow {
+  position: none;
+}
